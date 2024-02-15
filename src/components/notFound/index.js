@@ -1,4 +1,9 @@
+
+import './index.css'
+
 const NotFound=()=>(
-    <h1>not found</h1>
+    <div className="not-found-bg">
+        <h1 className='h1b'>Not found</h1>
+    </div>
 )
 export default NotFound

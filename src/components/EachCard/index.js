@@ -4,7 +4,7 @@ const EachCard=props=>{
     const{postDetails}=props
     const{content,description,url,publishedAt}=postDetails
     return(
-        <div className='col-12 col-md-3'>
+        <div className='col-12 col-md-3 text-center mb-3 align-items-center' >
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={url} alt='error '/>
                 <Card.Body>

@@ -61,8 +61,8 @@ renderHomeVideos=()=>{
     const{postsList}=this.state
 
     return(
-        <div className='container'>
-            <div className='row'>
+        <div className='container' >
+            <div className='row '>
               {postsList.map(eachPost=>(
                 <EachCard postDetails={eachPost} key={eachPost.id}/>
               ))}  
